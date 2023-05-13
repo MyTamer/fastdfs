@@ -263,7 +263,7 @@ int main(int argc, char *argv[])
 		file_info.create_timestamp, "%Y-%m-%d %H:%M:%S", \
 		szDatetime, sizeof(szDatetime)));
 	printf("file size=%"PRId64"\n", file_info.file_size);
-	printf("file crc32=%u\n", file_info.crc32);
+	printf("file crc32=%d\n", file_info.crc32);
 	printf("file url: %s\n", file_url);
 
 
@@ -285,7 +285,7 @@ int main(int argc, char *argv[])
 		file_info.create_timestamp, "%Y-%m-%d %H:%M:%S", \
 		szDatetime, sizeof(szDatetime)));
 	printf("file size=%"PRId64"\n", file_info.file_size);
-	printf("file crc32=%u\n", file_info.crc32);
+	printf("file crc32=%d\n", file_info.crc32);
 	printf("file url: %s\n", file_url);
 	if (file_info.file_size != 0)
 	{
